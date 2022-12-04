@@ -8,11 +8,11 @@ _Frontend Developer_
 **Email:** *iermoliuk.roman@gmail.com* <br>
 [GitHub](https://github.com/RoierS) / [Discord](https://discord.com/channels/@roiers#9880) / [Facebook](https://www.facebook.com/roman.iermoliuk/)
 
-## Summary:
+## 📌 Summary:
 I am self-motivated, responsible and hard working person. I am able to work well under pressure and adhere to strict deadlines. 
 
 
-## Skills:
+## 💡 Skills:
 * **Tech Skills:**
   + HTML5, CSS3
   + GIT, GitHub
@@ -23,10 +23,10 @@ I am self-motivated, responsible and hard working person. I am able to work well
   + Teamwork
   + Scrum
   
-## My Projects:
+## 🧩 My Projects:
 * [CV](https://github.com/RoierS/rsschool-cv/edit/gh-pages/cv.md)
 
-## Code examples:
+## 👨‍💻 Code examples:
 ``` 
 function helloWorld(){
   var str = "Hello World!"
@@ -34,7 +34,7 @@ function helloWorld(){
 } 
 ```
 
-## 👨‍💻 Experience:
+## 💻 🛠️ Experience:
 **Frontend Developer** *Freelance* (2022 - up to now) <br>
 * Using HTML, JavaScript and CSS to bring concepts to life
 * Developing and maintaining the user interface
