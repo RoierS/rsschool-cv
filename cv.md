@@ -24,8 +24,15 @@ I am self-motivated, responsible and hard working person. I am able to work well
   + Scrum
   
 ## My Projects:
+* [CV](https://github.com/RoierS/rsschool-cv/edit/gh-pages/cv.md)
 
 ## Code examples:
+``` 
+function helloWorld(){
+  var str = "Hello World!"
+  console.log(str);
+} 
+```
 
 ## 👨‍💻 Experience:
 **Frontend Developer** *Freelance* (2022 - up to now) <br>
@@ -59,6 +66,7 @@ I am self-motivated, responsible and hard working person. I am able to work well
 * **[freeCodeCamp Responsive Web Design](https://freecodecamp.org/certification/Roman_Iermoliuk/responsive-web-design)**
 * **W3School tutorials** <img width="300" alt="w3school tutorials" src="https://user-images.githubusercontent.com/111195111/205491650-3504f789-cebd-4fee-97e9-f3deb824947e.png">
 * **[CodeBasics HTML and CSS corses](https://code-basics.com)**
+* **[RSSchool JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/)** *(in progress)*
 
 ## 🏆 Accomplishments:
 
@@ -72,11 +80,8 @@ I am self-motivated, responsible and hard working person. I am able to work well
 🇵🇱 **Polish:** B1 <br>
 🇬🇧 **English:** [C1 according to EF SET](https://www.efset.org/cert/vcQCdc) <br>
 
-
-
-
-
-
+-----
+[<img alt="rs_school" width="100px" src="https://user-images.githubusercontent.com/111195111/205494988-8f71b71c-2db4-471e-8a0d-5e7c1cc72018.svg" />](https://rs.school/)
 
 
 
