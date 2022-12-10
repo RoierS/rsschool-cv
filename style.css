@@ -8,7 +8,13 @@
   box-sizing: border-box;
 }
 
-/* General Styles */
+/* || Variables */
+
+:root {
+  --FC1: #fff;
+}
+
+/* || General Styles */
 
 html {
   scroll-behavior: smooth;
@@ -18,15 +24,211 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  max-width: 800px;
+  line-height: 1.6;
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
+  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
 }
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-input,
-button,
-textarea {
-  font: inherit;
+ul{
+  list-style-type: none;
 }
+
+/* || Header */
+
+/* header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 3;
+} */
+
+.nav-list {
+  width: 100%;
+  margin: 12px auto;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 38px;
+  font-size: 20px;
+  padding: 6px 0;
+}
+
+a:any-link.nav-link {
+  color: #CECACA;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+  padding: 0px 10px;
+  transition: all 0.3s;
+}
+ a:hover.nav-link,
+ a:focus-visible.nav-link {
+  color: #fff;
+  background: rgba(196, 196, 196, 0.3);
+}
+ a:active.nav-link {
+  color: #fff;
+  background: rgba(196, 196, 196, 0.3);
+}
+
+/* || Main Section */
+
+.container {
+  max-width: 992px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 12px;
+}
+.container1 {
+  max-width: calc(50% - 6px);
+  background:  rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+  box-shadow: ;
+  padding: 10px 18px;
+  color: #fff;
+}
+.section1 {
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  margin: 12px 0;
+  padding: 6px 20px;
+}
+
+li img {
+  display: inline;
+  width: 25px;
+  margin-right: 20px;
+}
+
+
+#profile {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+a:any-link .logo-link {
+  font-size: 20px;
+  color: #CECACA;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+ a:hover .logo-link,
+ a:focus-visible .logo-link {
+  color: #fff;
+  text-shadow: 2px 2px 4px #7f6df1, 0 0 4px #7f6df1, 0 0 4px #7f6df1;
+  transform: scale(1.5) rotate(360deg);
+}
+ a:active .logo-link {
+  color: #fff;
+}
+
+
+h1 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+.my-profile p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #CECACA;
+  text-align: center;
+}
+img {
+  width: 110px;
+  border-radius: 50%;
+}
+
+
+.container2 {
+  max-width: calc(50% - 6px);
+  padding: 19px 14px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.container2 h2 {
+  width: 154px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #545454;
+  border-radius: 5px;
+  padding: 3px 30px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-flow: row nowrap;
+  display: inline-block;
+ 
+
+}
+.section span {
+  display: inline-block;
+  width: calc(95% - 145px);
+  border-top: 2px solid #545454;
+  vertical-align: 3px;
+}
+
+.company {
+  margin-bottom: 12px;
+}
+.company p:last-child {
+  margin-bottom: 12px;
+}
+.container2 a {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.section-title {
+}
+.company {
+}
+.university {
+}
+.footer {
+}
+
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: 
+  no-repeat center url('./assets/logo/figma-logo-vector.svg'), rgba(196, 196, 196, 0.4);
+  background-color: ;
+  position: relative;
+}
+.logo::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+  border-radius: 50%;
+  position: absolute;
+  border-top: 5px solid transparent;
+  
+}
+/* .logo::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #FFFFFF;
+  border: 5px solid rgb(211, 207, 207);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  background-size: 50% 100%;
+} */
