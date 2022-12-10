@@ -19,6 +19,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -30,12 +31,14 @@ body {
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-ul{
+
+ul {
   list-style-type: none;
 }
 
@@ -68,11 +71,13 @@ a:any-link.nav-link {
   padding: 0px 10px;
   transition: all 0.3s;
 }
+
  a:hover.nav-link,
  a:focus-visible.nav-link {
   color: #fff;
   background: rgba(196, 196, 196, 0.3);
 }
+
  a:active.nav-link {
   color: #fff;
   background: rgba(196, 196, 196, 0.3);
@@ -86,14 +91,18 @@ a:any-link.nav-link {
   flex-flow: row wrap;
   gap: 12px;
 }
+
+/* Main Section Left */
+
 .container1 {
   max-width: calc(50% - 6px);
   background:  rgba(196, 196, 196, 0.3);
   border-radius: 10px;
-  box-shadow: ;
+  /* box-shadow: ; */
   padding: 10px 18px;
   color: #fff;
 }
+
 .section1 {
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
@@ -107,28 +116,31 @@ li img {
   margin-right: 20px;
 }
 
-
-#profile {
-
+.profile-section {
   display: flex;
   justify-content: space-evenly;
 }
+
 a:any-link .logo-link {
-  font-size: 20px;
-  color: #CECACA;
-  text-decoration: none;
   transition: all 0.5s;
 }
  a:hover .logo-link,
  a:focus-visible .logo-link {
-  color: #fff;
-  text-shadow: 2px 2px 4px #7f6df1, 0 0 4px #7f6df1, 0 0 4px #7f6df1;
-  transform: scale(1.5) rotate(360deg);
+  filter: brightness(2);
+  transform: scale(1.3) rotate(360deg);
 }
  a:active .logo-link {
-  color: #fff;
+  filter: brightness(2);
+  transform: scale(1.3) rotate(360deg);
 }
-
+.link-link {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}
+.link-link:hover, .link-link:active {
+  color: #CECACA;
+}
 
 h1 {
   font-weight: 500;
@@ -143,7 +155,7 @@ h1 {
   color: #CECACA;
   text-align: center;
 }
-img {
+.profile-section img {
   width: 110px;
   border-radius: 50%;
 }
