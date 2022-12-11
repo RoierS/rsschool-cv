@@ -7,16 +7,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-a:link {
-  text-decoration: none;
-  color: inherit
-}
-a:visited {
-  color: inherit;
-}
 
 /* || Variables */
 
+:root {
+  /* Colors */
+  --BG-COLOR: rgba(196, 196, 196, 0.3);
+  --BG-COLOR2: rgba(196, 196, 196, 0.35);
+  
+}
 
 
 /* || General Styles */
@@ -51,12 +50,21 @@ ul {
   list-style-type: none;
 }
 
+a:link {
+  text-decoration: none;
+  color: inherit
+}
+
+a:visited {
+  color: inherit;
+}
+
 /* || Header */
 
 .nav-list {
   width: calc(100% - 6px);
   margin: 12px auto;
-  background: rgba(196, 196, 196, 0.3);
+  background: var(--BG-COLOR);
   border-radius: 10px;
   display: flex;
   flex-flow: row wrap;
@@ -78,13 +86,13 @@ ul {
 .nav-link:hover,
 .nav-link:focus-visible {
   color: #fff;
-  background: rgba(196, 196, 196, 0.3);
+  background: var(--BG-COLOR);
   box-shadow: 0 0 5px rgb(88 114 248), 0 0 5px rgb(88 114 248);
 }
 
 .nav-link:active {
   color: #fff;
-  background: rgba(196, 196, 196, 0.3);
+  background: var(--BG-COLOR);
 }
 
 /* || Main Section */
@@ -101,24 +109,25 @@ ul {
 
 .container-left {
   max-width: calc(48% - 6px);
-  background: rgba(196, 196, 196, 0.3);
+  background: var(--BG-COLOR);
   border-radius: 10px;
-  padding: 10px 18px;
+  padding: 10px 14px;
   color: #fff;
 
 }
 
 .section-left-small {
-  background: rgba(196, 196, 196, 0.35);
+  background: var(--BG-COLOR2);
   border-radius: 10px;
   margin: 12px 0;
-  padding: 6px 5px 6px 16px;
+  padding: 6px 2px 6px 13px;
 }
 
 .profile-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  column-gap: 10px;
 }
 
 .name {
@@ -151,7 +160,7 @@ ul {
 }
 
 .contacts-link i {
-  margin-right: 12px;
+  margin-right: 10px;
   font-size: 20px;
 }
 
@@ -199,7 +208,7 @@ color: #fff;
   position: relative;
   padding: 5px 20px 5px 40px;
   margin-left: 20px;
-  background: rgba(196, 196, 196, 0.35);
+  background: var(--BG-COLOR2);
   border-radius: 10px;
   margin-bottom: 8px;
   display: inline-block;
@@ -298,7 +307,7 @@ pre {
   color: #50275a;
   text-decoration: none;
   transition: all 0.5s;
-  background-color: rgba(196, 196, 196, 0.35);
+  background-color: var(--BG-COLOR2);
   border-radius: 10px;
   padding: 5px 8px;
 }
@@ -354,7 +363,8 @@ pre {
 
 .my-cv:link {
   color: black;
-  text-decoration: none;background-color: rgba(196, 196, 196, 0.50); 
+  text-decoration: none;
+  background-color: rgba(196, 196, 196, 0.50); 
   border-radius: 10px;
   padding: 5px 10px;
   transition: all 0.5s;
@@ -384,25 +394,15 @@ pre {
   white-space: nowrap;
 }
 
-.section-title {
-}
-.company {
-}
-.university {
-}
-
-
-.courses {
-}
-.section-title {
-}
-.courses-list {
+.university-name {
+  color: rgb(4, 7, 45);
+  
 }
 
 .courses-item {
   font-size: 16px;
   position: relative;
-  background: rgba(196, 196, 196, 0.35);
+  background: var(--BG-COLOR2);
   border-radius: 10px;
   margin-bottom: 8px;
   margin-left: 5px;
@@ -455,7 +455,7 @@ pre {
 .footer {
   width: calc(100% - 6px);
   margin: 12px auto;
-  background: rgba(196, 196, 196, 0.3);
+  background: var(--BG-COLOR);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -485,7 +485,7 @@ pre {
 
 /*  || Media */
 
-@media (max-width: 600px) {
+@media (max-width: 605px) {
   .main-container {
     flex-flow: column nowrap;
     
