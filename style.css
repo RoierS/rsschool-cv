@@ -14,7 +14,6 @@
   /* Colors */
   --BG-COLOR: rgba(196, 196, 196, 0.3);
   --BG-COLOR2: rgba(196, 196, 196, 0.35);
-  
 }
 
 
@@ -62,24 +61,24 @@ a:visited {
 /* || Header */
 
 .nav-list {
-  width: calc(100% - 6px);
-  margin: 12px auto;
-  background: var(--BG-COLOR);
-  border-radius: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  line-height: 38px;
-  font-size: 20px;
+  width: calc(100% - 6px);
+  margin: 12px auto;
   padding: 6px 0;
+  font-size: 20px;
+  line-height: 38px;
+  border-radius: 10px;
+  background: var(--BG-COLOR);
 }
 
 .nav-link:any-link {
+  display: block;
+  padding: 0px 10px;
   color: #cecaca;
   text-decoration: none;
-  display: block;
   border-radius: 10px;
-  padding: 0px 10px;
   transition: all 0.3s;
 }
 
@@ -98,29 +97,29 @@ a:visited {
 /* || Main Section */
 
 .main-container {
-  max-width: 992px;
   display: flex;
   flex-flow: row wrap;
-  gap: 12px;
   justify-content: space-evenly;
+  gap: 12px;
+  max-width: 992px;
 }
 
 /* | Main Section Left */
 
 .container-left {
   max-width: calc(48% - 6px);
-  background: var(--BG-COLOR);
-  border-radius: 10px;
   padding: 10px 14px;
   color: #fff;
+  border-radius: 10px;
+  background: var(--BG-COLOR);
 
 }
 
 .section-left-small {
-  background: var(--BG-COLOR2);
-  border-radius: 10px;
   margin: 12px 0;
   padding: 6px 2px 6px 13px;
+  border-radius: 10px;
+  background: var(--BG-COLOR2);
 }
 
 .profile-section {
@@ -131,18 +130,18 @@ a:visited {
 }
 
 .name {
-  font-weight: 500;
   font-size: 35px;
-  line-height: 43px;
+  font-weight: 500;
   text-align: center;
+  line-height: 43px;
 }
 
 .my-profile p {
-  font-weight: 700;
   font-size: 15px;
+  font-weight: 700;
   line-height: 18px;
-  color: #cecaca;
   text-align: center;
+  color: #cecaca;
 }
 
 .my-photo {
@@ -204,32 +203,32 @@ color: #fff;
 }
 
 .tech-skills-item {
-  font-size: 18px;
+  display: inline-block;
   position: relative;
   padding: 5px 20px 5px 40px;
   margin-left: 20px;
-  background: var(--BG-COLOR2);
-  border-radius: 10px;
   margin-bottom: 8px;
-  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  background: var(--BG-COLOR2);
   transition: all 0.5s;
 }
 
 .tech-skills-item:hover {
-  transform: scale(1.1);
   cursor: pointer;
   box-shadow: 0 0 5px rebeccapurple, 0 0 5px rebeccapurple;
+  transform: scale(1.1);
 }
 
 .tech-skills-item::before {
   content: "";
   position: absolute;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 25px;
-  height: 25px;
   top: 15%;
   left: 10px;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .tech-skills-item:nth-child(1)::before {
@@ -261,11 +260,11 @@ color: #fff;
 }
 
 .soft-skills {
-  font-size: 18px;
   position: relative;
   padding-left: 50px;
-  list-style-type: "☑️    ";
   margin-left: 10px;
+  font-size: 18px;
+  list-style-type: "☑️    ";
 }
 
 pre {
@@ -282,8 +281,8 @@ pre {
 }
 
 .language-item::before {
-  font-size: 22px;
   padding-right: 5px;
+  font-size: 22px;
 }
 
 .language-item:nth-child(1):before {
@@ -291,7 +290,7 @@ pre {
 }
 
 .language-item:nth-child(2):before {
-  content: "🇷🇺  ";
+  content: "🇷🇺 ";
 }
 
 .language-item:nth-child(3):before {
@@ -304,12 +303,12 @@ pre {
 
 .efset:link {
   display: inline-block;
+  padding: 5px 8px;
   color: #50275a;
   text-decoration: none;
-  transition: all 0.5s;
-  background-color: var(--BG-COLOR2);
   border-radius: 10px;
-  padding: 5px 8px;
+  background-color: var(--BG-COLOR2);
+  transition: all 0.5s;
 }
 
 .efset:visited {
@@ -318,8 +317,8 @@ pre {
 
 .efset:hover {
   color: #fff;
-  transform: scale(1.1);
   box-shadow: 0 0 5px rgb(205 96 223), 0 0 5px rgb(205 96 223);
+  transform: scale(1.1);
 }
 
 
@@ -334,26 +333,24 @@ pre {
 }
 
 .container-right h2 {
+  display: inline-block;
   width: 154px;
+  margin-bottom: 12px;
+  padding: 3px 30px;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
   color: #fff;
   background: #545454;
   border-radius: 5px;
-  padding: 3px 30px;
-  margin-bottom: 12px;
-  display: flex;
-  flex-flow: row nowrap;
-  display: inline-block;
 }
 
 .line {
   display: inline-block;
   width: calc(95% - 145px);
-  border-top: 2px solid #545454;
-  vertical-align: 3px;
   margin-left: -5px;
+  vertical-align: 3px;
+  border-top: 2px solid #545454;
 }
 
 .my-cv {
@@ -362,11 +359,11 @@ pre {
 }
 
 .my-cv:link {
+  padding: 5px 10px;
   color: black;
   text-decoration: none;
   background-color: rgba(196, 196, 196, 0.50); 
   border-radius: 10px;
-  padding: 5px 10px;
   transition: all 0.5s;
 }
 
@@ -400,13 +397,13 @@ pre {
 }
 
 .courses-item {
-  font-size: 16px;
   position: relative;
-  background: var(--BG-COLOR2);
-  border-radius: 10px;
   margin-bottom: 8px;
   margin-left: 5px;
   padding: 5px 20px 5px 45px;
+  font-size: 16px;
+  background: var(--BG-COLOR2);
+  border-radius: 10px;
   transition: all 0.5s;
 }
 
@@ -420,12 +417,12 @@ pre {
 .courses-item::before {
   content: "";
   position: absolute;
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 25px;
   height: 25px;
   top: 15%;
   left: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .courses-item:nth-child(1):before {
@@ -453,15 +450,15 @@ pre {
 /* ||Footer */
 
 .footer {
+  display: flex;
   width: calc(100% - 6px);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 60px;
   margin: 12px auto;
   background: var(--BG-COLOR);
   border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  height: 60px;
 }
 .footer a {
   display: inline-block;
@@ -488,7 +485,6 @@ pre {
 @media (max-width: 605px) {
   .main-container {
     flex-flow: column nowrap;
-    
     align-items: center;
   }
   .container-left {
