@@ -400,11 +400,17 @@ pre {
   position: relative;
   margin-bottom: 8px;
   margin-left: 5px;
-  padding: 5px 20px 5px 45px;
   font-size: 16px;
   background: var(--BG-COLOR2);
   border-radius: 10px;
   transition: all 0.5s;
+}
+
+.courses-item a {
+  width: 100%;
+  display: block;
+  padding-left: 49px;
+  line-height: 2;
 }
 
 .courses-item:hover {
