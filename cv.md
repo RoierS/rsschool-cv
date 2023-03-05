@@ -23,7 +23,9 @@ Through my experience as a manager and truck driver, I have gained valuable skil
   + Scrum
   
 ## 🧩 My Projects:
-* [CV](https://github.com/RoierS/rsschool-cv/edit/gh-pages/cv.md)
+* [My CV](https://github.com/RoierS/rsschool-cv/edit/gh-pages/cv.md)
+* [Plants](https://rolling-scopes-school.github.io/roiers-JSFEPRESCHOOL2022Q4/plants/)
+* [Momentum](https://roiers-momentum.netlify.app/)
 
 ## 👨‍💻 Code examples:
 ``` javascript
