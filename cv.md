@@ -26,11 +26,18 @@ Through my experience as a manager and truck driver, I have gained valuable skil
 * [CV](https://github.com/RoierS/rsschool-cv/edit/gh-pages/cv.md)
 
 ## 👨‍💻 Code examples:
-``` 
-function helloWorld(){
-  var str = "Hello World!"
-  console.log(str);
-} 
+``` javascript
+// return an array that includes largest number from each provided sub-array
+function largestOfFour(arr) {
+    let result = [];
+    for (let i = 0; i < arr.length; i++) {
+    result.push(Math.max(...arr[i]));
+    }
+    return result;
+}
+
+largest0fFour([[4, 5, 1, 31], [13, 27, 18, 261], [32, 35, 37, 391], [1000, 1001, 857, 111]]);
+// return [31, 261, 391, 1001]
 ```
 
 ## 💻 🛠️ Experience:
