@@ -9,8 +9,7 @@ _Frontend Developer_
 [GitHub](https://github.com/RoierS) / [Discord](https://discord.com/channels/@roiers#9880) / [Facebook](https://www.facebook.com/roman.iermoliuk/)
 
 ## 📌 Summary:
-I am self-motivated, responsible and hard working person. I am able to work well under pressure and adhere to strict deadlines. 
-
+Through my experience as a manager and truck driver, I have gained valuable skills in communication, problem-solving, and time management. Additionally, my postgraduate studies in economics and trade have equipped me with a strong foundation in business principles. Now, I am excited to pursue my passion for IT as a Frontend Developer. With a dedication to ongoing learning and professional development, I am committed to delivering exceptional results in any role that I take on.
 
 ## 💡 Skills:
 * **Tech Skills:**
