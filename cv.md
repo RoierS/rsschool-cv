@@ -9,8 +9,7 @@ _Frontend Developer_
 [GitHub](https://github.com/RoierS) / [Discord](https://discord.com/channels/@roiers#9880) / [Facebook](https://www.facebook.com/roman.iermoliuk/)
 
 ## 📌 Summary:
-I am self-motivated, responsible and hard working person. I am able to work well under pressure and adhere to strict deadlines. 
-
+I am self-motivated, responsible and hard working person. Through my experience as a manager and truck driver, I have gained valuable skills in communication, problem-solving, and time management. Additionally, my postgraduate studies in economics and trade have equipped me with a strong foundation in business principles. Now, I am excited to pursue my passion for IT as a Frontend Developer. With a dedication to ongoing learning and professional development, I am committed to delivering exceptional results in any role that I take on.
 
 ## 💡 Skills:
 * **Tech Skills:**
@@ -24,14 +23,23 @@ I am self-motivated, responsible and hard working person. I am able to work well
   + Scrum
   
 ## 🧩 My Projects:
-* [CV](https://github.com/RoierS/rsschool-cv/edit/gh-pages/cv.md)
+* [My CV](https://github.com/RoierS/rsschool-cv/edit/gh-pages/cv.md)
+* [Plants](https://rolling-scopes-school.github.io/roiers-JSFEPRESCHOOL2022Q4/plants/)
+* [Momentum](https://roiers-momentum.netlify.app/)
 
 ## 👨‍💻 Code examples:
-``` 
-function helloWorld(){
-  var str = "Hello World!"
-  console.log(str);
-} 
+``` javascript
+// return an array that includes largest number from each provided sub-array
+function largestOfFour(arr) {
+    let result = [];
+    for (let i = 0; i < arr.length; i++) {
+    result.push(Math.max(...arr[i]));
+    }
+    return result;
+}
+
+largest0fFour([[4, 5, 1, 31], [13, 27, 18, 261], [32, 35, 37, 391], [1000, 1001, 857, 111]]);
+// return [31, 261, 391, 1001]
 ```
 
 ## 💻 🛠️ Experience:
@@ -65,12 +73,14 @@ function helloWorld(){
 ## 📚 Courses:
 * **[freeCodeCamp Responsive Web Design](https://freecodecamp.org/certification/Roman_Iermoliuk/responsive-web-design)**
 * **W3School tutorials** <img width="300" alt="w3school tutorials" src="https://user-images.githubusercontent.com/111195111/205491650-3504f789-cebd-4fee-97e9-f3deb824947e.png">
-* **[CodeBasics HTML and CSS corses](https://code-basics.com)**
-* **[RSSchool JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/)** *(in progress)*
+* **[CodeBasics HTML, CSS, JS courses](https://code-basics.com)**
+* **[RSSchool JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/)**
+* **[RSSchool JavaScript/Front-end. Stage 1](https://rs.school/js/)** *(in progress)*
 
 ## 🏆 Accomplishments:
 
-<img width="300" alt="freeCodeCamp certificate" src="https://user-images.githubusercontent.com/111195111/205492201-fb070ab8-05da-4b72-84e7-23a3716bbbf9.png">   <img width="170" alt="Screenshot 2022-11-29 at 17 46 09" src="https://user-images.githubusercontent.com/111195111/205493191-f89aa2c7-1dcd-4328-b09b-f81cfe74d9c7.png">
+<img width="300" alt="freeCodeCamp certificate" src="https://user-images.githubusercontent.com/111195111/205492201-fb070ab8-05da-4b72-84e7-23a3716bbbf9.png"> <img width="300" alt="RSSchool stage 0 certificate" src="https://user-images.githubusercontent.com/111195111/222980828-bf477900-6db6-4b74-bed8-66f16569a9bf.png"> <img width="170" alt="English level certificate" src="https://user-images.githubusercontent.com/111195111/205493191-f89aa2c7-1dcd-4328-b09b-f81cfe74d9c7.png">
+
 
 
 ## 💬 Languages:
