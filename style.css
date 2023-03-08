@@ -287,6 +287,8 @@ color: #fff;
 pre {
   margin: 0;
   padding: 0;
+  /* overflow: auto; */
+  
 }
 
 .nowrap {
@@ -465,6 +467,10 @@ pre {
 }
 
 .courses-item:nth-child(5):before {
+  background-image: url("./assets/logo/RSschool.svg");
+  top: 25%;
+}
+.courses-item:nth-child(6):before {
   background-image: url("./assets/logo/RSschool.svg");
   top: 25%;
 }
