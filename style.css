@@ -212,7 +212,7 @@ color: #fff;
   padding: 5px 20px 5px 40px;
   margin-left: 20px;
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: 1.2em;
   border-radius: 10px;
   background: var(--BG-COLOR2);
   transition: all 0.5s;
@@ -227,12 +227,13 @@ color: #fff;
 .tech-skills-item::before {
   content: "";
   position: absolute;
-  top: 15%;
-  left: 10px;
+  top: 17%;
+  left: 8%;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
   background-size: contain;
+  transform-origin: center;
 }
 
 .tech-skills-item:nth-child(1)::before {
@@ -412,7 +413,7 @@ pre {
 .courses-item {
   position: relative;
   margin-bottom: 8px;
-  margin-left: 5px;
+  margin-left: 14px;
   font-size: 16px;
   background: var(--BG-COLOR2);
   border-radius: 10px;
@@ -438,10 +439,11 @@ pre {
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 15%;
-  left: 10px;
+  top: 17%;
+  left: 3%;
   background-repeat: no-repeat;
   background-size: contain;
+  transform-origin: center;
 }
 
 .courses-item:nth-child(1):before {
@@ -485,7 +487,7 @@ pre {
   padding: 5px 20px 5px 40px;
   margin-left: 20px;
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: 1.2em;
   border-radius: 10px;
   background: var(--BG-COLOR2);
   transition: all 0.5s;
@@ -500,12 +502,13 @@ pre {
 .hobby-item::before {
   content: "";
   position: absolute;
-  top: 15%;
-  left: 10px;
+  top: 17%;
+  left: 8%;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
   background-size: contain;
+  transform-origin: center;
 }
 .hobby-item:nth-child(1)::before {
   background-image: url("./assets/logo/cycling.svg");
